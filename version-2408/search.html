@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索-最新国产电影-最新电影大全-分类内容持续更新</title>
+    <meta name="description" content="搜索最新国产电影、最新电影大全和多题材分类内容。">
+    <meta name="keywords" content="搜索影片,筛选,最新国产电影,最新电影大全,分类内容持续更新,国产电影更新,最新影片,电影片库">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="主导航">
+            <a class="brand" href="./index.html" aria-label="国产电影大全">
+                <span class="brand-mark">影</span>
+                <span class="brand-text">国产电影大全</span>
+            </a>
+            <button class="mobile-toggle" type="button" data-menu-toggle aria-label="展开导航">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-panel" data-menu-panel>
+                    <a href="./index.html" class="nav-link">首页</a>
+                    <a href="./categories.html" class="nav-link">分类</a>
+                    <a href="./rankings.html" class="nav-link">排行榜</a>
+                    <a href="./search.html" class="nav-link is-active">搜索</a>
+                <div class="nav-dropdown">
+                    <button class="nav-link dropdown-trigger" type="button">片库专区</button>
+                    <div class="dropdown-menu">
+                        <a href="./category_latest-movies.html" class="dropdown-link">最新电影</a>
+                        <a href="./category_domestic-cinema.html" class="dropdown-link">国产精选</a>
+                        <a href="./category_drama-series.html" class="dropdown-link">剧集专区</a>
+                        <a href="./category_action-suspense.html" class="dropdown-link">动作悬疑</a>
+                        <a href="./category_romance-comedy.html" class="dropdown-link">爱情喜剧</a>
+                        <a href="./category_animation-fantasy.html" class="dropdown-link">动画奇幻</a>
+                        <a href="./category_history-war.html" class="dropdown-link">历史战争</a>
+                        <a href="./category_urban-life.html" class="dropdown-link">都市生活</a>
+                    </div>
+                </div>
+                <form class="nav-search" action="./search.html" method="get" data-search-form>
+                    <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero soft-hero search-hero">
+            <div>
+                <p class="eyebrow">搜索筛选</p>
+                <h1>搜索影片</h1>
+                <p>可按片名、地区、类型、年份、标签或简介关键词查找内容。</p>
+            </div>
+            <form class="search-page-form" action="./search.html" method="get" data-search-form>
+                <input type="search" name="q" data-search-input placeholder="输入关键词">
+                <button type="submit">搜索</button>
+            </form>
+        </section>
+
+        <section class="content-section search-results-section">
+            <div class="section-heading compact">
+                <div>
+                    <p class="eyebrow">结果</p>
+                    <h2>搜索结果</h2>
+                </div>
+            </div>
+            <div class="movie-grid grid-four" data-search-results></div>
+            <p class="empty-state" data-search-empty hidden>暂无匹配内容</p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <section>
+                <h2>国产电影大全</h2>
+                <p>整理最新国产电影相关内容，覆盖近期上线片目与多题材分类，页面内容持续维护。</p>
+            </section>
+            <section>
+                <h2>内容导航</h2>
+                <ul>
+                    <li><a href="./categories.html">分类总览</a></li>
+                    <li><a href="./rankings.html">排行榜</a></li>
+                    <li><a href="./search.html">搜索筛选</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>热门分类</h2>
+                <ul>
+                        <li><a href="./category_latest-movies.html">最新电影</a></li>
+                        <li><a href="./category_domestic-cinema.html">国产精选</a></li>
+                        <li><a href="./category_drama-series.html">剧集专区</a></li>
+                        <li><a href="./category_action-suspense.html">动作悬疑</a></li>
+                        <li><a href="./category_romance-comedy.html">爱情喜剧</a></li>
+                        <li><a href="./category_animation-fantasy.html">动画奇幻</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 国产电影大全. 内容持续更新。</p>
+        </div>
+    </footer>
+
+    <script src="./assets/search-index.js" defer></script>
+    <script src="./assets/site.js" defer></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
